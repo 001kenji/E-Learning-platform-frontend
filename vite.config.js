@@ -13,13 +13,13 @@ export default defineConfig(({ mode }) => {
       port: 5173,
       proxy: {
         '/api': {
-          target: 'http://localhost:8000',
+          target: ' https://elearning-platform-1zjy.onrender.com',
           changeOrigin: true,
           secure: false,
           rewrite: (path) => path.replace(/^\/api/, '')
         },
         '/auth': {
-          target: 'http://localhost:8000',
+          target: ' https://elearning-platform-1zjy.onrender.com',
           changeOrigin: true,
           secure: false
         }
