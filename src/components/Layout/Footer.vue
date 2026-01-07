@@ -152,7 +152,11 @@
       <div class="pt-8 border-t border-slate-700/50">
         <div class="flex flex-col lg:flex-row justify-between items-center gap-6">
           <div class="text-center lg:text-left">
-            <p class="text-slate-400">© {{ currentYear }} EduLearn Pro. All rights reserved.</p>
+            <p class="text-slate-400">© {{ currentYear }} EduLearn Pro. All rights reserved.Developed by 
+              <a href="https://github.com/001kenji" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition-colors">
+                Brian Njuguna
+              </a>
+            </p>
             <p class="text-xs text-slate-500 mt-2">Empowering learners worldwide through innovative education.</p>
           </div>
           <div class="flex items-center space-x-6">
