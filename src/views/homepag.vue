@@ -372,7 +372,12 @@
             </span>
           </div>
           <div class="text-center md:text-right">
-            <p class="text-slate-600 mb-2">© {{ new Date().getFullYear() }} EduLearn Pro. All rights reserved.</p>
+            <p class="text-slate-600 mb-2">© {{ new Date().getFullYear() }} EduLearn Pro. All rights reserved.
+              Developed by 
+              <a href="https://github.com/001kenji" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition-colors">
+                Brian Njuguna
+              </a>
+            </p>
             <p class="text-sm text-slate-500">Empowering learners worldwide through innovative education</p>
           </div>
         </div>
